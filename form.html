@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact form</title>
+  </head>
+  <body>
+    <form class="" action="mailto:joe@example.com?subject=feedback" method="post" enctype="text/plain">
+      <label for="Name">whats your name</label>
+      <input type="text" name="Name" value="" id="Name" required minlength="4" maxlength="15">
+
+      <br>
+      <label for="">which sports do you like?</label>
+      <br>
+      <input type="checkbox" name="sports" id="sports" value="" checked>
+      <label for="sports">football</label>
+      <br>
+      <input type="checkbox" name="sports" value="" id="sports" checked>
+      <label for="sports">cricket</label>
+      <br>
+      <label for="colors">pick your color</label>
+      <input type="color" id="colors" name="colors" value="">
+      <br>
+      <label for="dob"> date of birth</label>
+      <input type="date" name="dob" id="dob" value="">
+      <br>
+      <label for=""> date and time
+        <input type="datetime-local" name="datetime" value="">
+      </label>
+      <br>
+      <label for=""> email
+        <input type="email" name="mail" value="">
+      </label>
+      <br>
+      <label for="">password
+        <input type="password" name="passcode" value="">
+      </label>
+      <br>
+      <label for="profile picture">choose a profile picture </label>
+      <input type="file" name="profile picture" id="profile picture" value="" accept="image/jpeg,image/gif,image/tiff,image/x-png" capture="user">
+      <br>
+      <!-- <label for="img">Image</label>
+      <input type="image" id="img" name="image" value="" src="IMG_20171220_174613_031.jpg" alt="profile" height="200" width="200"> -->
+      <br>
+      <label for="">is the picture correct</label>
+      <input type="radio" name="answer" id="yes" value="" checked>
+      <label for="yes">yes</label>
+      <input type="radio" name="answer" id="no" value="" checked>
+      <label for="no">no</label>
+      <br>
+      <label for="r">range</label>
+      <input type="range" name="" id="r" value="" max="10" min="0" step="1">
+
+      <br>
+
+      <!-- <button type="button" name="button">reset</button> -->
+      <br>
+      <label for="s">search a keyword</label>
+      <input type="search" id="s" name="search" value="" maxlength="30" minlength="3" size="30" placeholder="type a keyword" spellcheck="true">
+      <br>
+      <label for="tel">enter your number</label>
+      <input type="tel" id="tel" name="telephone" value=""  maxlength="10" minlength="10">
+      <span class="notes">format: +91-1234567890</span>
+      <br>
+      <label for="T">enter text</label>
+      <input type="text" id="T" name="" value="">
+      <br>
+      <label for=""> yourmessage
+        <textarea name="yourmessage" rows="10" cols="80"></textarea>
+      </label>
+      <br>
+      <label for="reset">reset the form to default</label>
+      <input type="reset" id="reset" name="reset" value="reset">
+      <br>
+      <input type="submit" name="Name" value="submit" id="Name">
+    </form>
+  </body>
+</html>
